@@ -15,6 +15,8 @@ require('mahrio').runServer(process.env, __dirname)
             method: 'POST',
             handler: function (request, reply) {
 
+                console.log('Calculating monthly payment for :' + JSON.stringify(request.payload));
+
                 var loanAmount = request.payload.loanAmount;
                 var numYearsToPayback = request.payload.numYearsToPayback;
                 var rateOfInterest = request.payload.rateOfInterest;
