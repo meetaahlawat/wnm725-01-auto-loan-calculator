@@ -1,6 +1,16 @@
 require('mahrio').runServer(process.env, __dirname)
     .then(function (server) {
         server.route({
+            path: '/',
+            method: 'GET',
+            handler: function (request, reply) {
+                return reply({
+                    app: 'Auto Loan Calculator',
+                    version: '1.0.0'
+                })
+            }
+        });
+        server.route({
             path: '/v1/autoloan/calculate',
             method: 'POST',
             handler: function (request, reply) {
