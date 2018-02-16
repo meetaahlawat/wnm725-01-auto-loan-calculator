@@ -1,0 +1,19 @@
+{
+  "name": "auto-loan-calculator",
+  "version": "1.0.0",
+  "description": "Auto Loan Calculator",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meetaahlawat/wnm725-01-auto-loan-calculator.git"
+  },
+  "author": "Meeta Ahlawat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meetaahlawat/wnm725-01-auto-loan-calculator/issues"
+  },
+  "homepage": "https://github.com/meetaahlawat/wnm725-01-auto-loan-calculator#readme"
+}
