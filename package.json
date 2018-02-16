@@ -4,6 +4,7 @@
   "description": "Auto Loan Calculator",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "node index.js"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/meetaahlawat/wnm725-01-auto-loan-calculator/issues"
   },
-  "homepage": "https://github.com/meetaahlawat/wnm725-01-auto-loan-calculator#readme"
+  "homepage": "https://github.com/meetaahlawat/wnm725-01-auto-loan-calculator#readme",
+  "dependencies": {
+    "mahrio": "^1.4.0"
+  }
 }
